@@ -1,0 +1,9 @@
+23:59:46 **** Build of configuration Debug for project second ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Program Files/Java/jre/bin/server;C:/Program Files/Java/jre/bin;C:/Program Files/Java/jre/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;"C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jre\bin";C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jre\bin;C:\Users\harshit\AppData\Local\Microsoft\WindowsApps;C:\Users\harshit\AppData\Local\GitHubDesktop\bin;C:\Windows\System32]
+
+23:59:47 Build Failed. 1 errors, 0 warnings. (took 221ms)
+

@@ -16,7 +16,8 @@ public class student {
 		testscore2=0;
 		testscore3=0;
 	}
-	public String tostring() {
+	@Override
+	public String toString() {
 		String result;
 		result=firstname+" "+lastname+"\n";
 		result+="Home address:\n"+ homeaddress +"\n";
@@ -65,9 +66,9 @@ public class student {
 		return;
 	}
 	public static void main(String args[]) {
-		student obj1= new student("harshit","agarwal",harshithome,schooladd);
+//		student obj1= new student("harshit","agarwal",harshithome,school);
 		
-		obj1.toString();
+//		obj1.toString();
 	}
 	
 

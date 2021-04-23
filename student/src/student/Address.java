@@ -9,15 +9,17 @@ public class Address {
 		state=st;
 		zipcode=zip;
 	}
-	public String tostring() {
+	@Override
+	public String toString() {
+		
 		String result;
 		result=streetaddress+"\n";
-		result+=city+","+state+" "+zipcode;
+		result+=city+", "+state+" "+zipcode;
 		return result;
 	}
 	public static void main(String args[]) {
-		Address obj= new Address("qwerfgdf","asfg","aesfdgf",213);
+		Address obj= new Address("12, new agrasen colony","beawar","raj.",305901);
 		
-		obj.toString();
+		System.out.println(obj);
 	}
 }

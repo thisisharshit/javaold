@@ -2,15 +2,15 @@ package student;
 
 public class mainbody {
 
-public static void main(String args[]) {
+	public static void main(String args[]) {
 		
-		Address schooladd= new Address("qwert","wert","2ert",8);
+		Address schooladd= new Address("ajmer road","beawar","raj.",305901);
 		
-		Address harshithome=new Address("sfvd","sfvfsd","sfs",6);
+		Address harshithome=new Address("12, new agrasen colony","beawar","raj.",305901);
 		
 		student harshit =new student("harshit","agarwal",harshithome,schooladd);
 		
-		//System.out.println(obj.tostring());
+		System.out.println(harshit);
 		
 		harshit.settestscore(1, 93);
         harshit.settestscore(2, 86);
